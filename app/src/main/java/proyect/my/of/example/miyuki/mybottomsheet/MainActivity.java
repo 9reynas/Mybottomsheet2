@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        llBottomSheet = (LinearLayout) findViewById(R.id.bottom_sheet);
+        llBottomSheet =  findViewById(R.id.bottom_sheet);
 
         // init the bottom sheet behavior
          bottomSheetBehavior = BottomSheetBehavior.from(llBottomSheet);
